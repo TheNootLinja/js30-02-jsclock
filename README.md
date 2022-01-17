@@ -1,0 +1,3 @@
+# Javascript 30 Day 01
+
+This is my successful attempt at the JS clock project from day 2 of JS-30. I made it a point to do the project without watching the video and only looking up things that I didn't remember how to accomplish. I watched the video afterwords to ensure I had accomplished the desired outcome at which time Wes mentions the transition but where the hands upon completing a full rotation would quickly spin backwards to the start. I fixed this by removing the transition when a time value (second, minute, hour) reached 0 and then put it back on when that previous number reached 1. It isn't perfect but fixes most of the jank.
